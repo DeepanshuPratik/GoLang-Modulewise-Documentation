@@ -18,6 +18,9 @@ func main() {
 	ToppersList[2] = "Soumya Ranjan"
 	ToppersList[4] = "Kshitiz Kumar Singh"
 
+	var Projects = [4]string{"Thermal scanner", "Social-IIITNR", "ML project"}
+	fmt.Println("Projects: ", Projects, " Length: ", len(Projects))
+	fmt.Printf(" Type:%T\n ", Projects)
 	fmt.Println("COunt: ", count, " ToppersList: ", ToppersList, " Length: ", len(ToppersList))
 
 }
